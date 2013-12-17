@@ -70,13 +70,13 @@ goto next3
 :next3
 cls
 echo.
-echo  Go to Base-Rom\base\system\etc\permissions and copy all the files 
-echo  except platform and handheld_hardware (or handheld_core_hardware) 
-echo  present in Port-Rom\port\system\etc\permissions
+echo  Go to Port-Rom\base\system\etc\permissions and copy all the files 
+echo  EXCEPT platform and handheld_hardware (or handheld_core_hardware). 
+echo  Move them to Base-Rom\port\system\etc\permissions
 pause
 echo.
-echo  Go to Base-Rom\base\system\etc\init.d and delete everything except banner
-echo  and then copy all the files present inside init.d of Port-Rom\port\system\etc\permissions 
+echo  Go to Base-Rom\base\system\etc\init.d and delete everything except banner. 
+echo  Then copy all the files present inside init.d of Port-Rom\port\system\etc\permissions 
 echo  to Base-Rom\base\system\etc\init.d
 echo.
 pause
